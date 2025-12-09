@@ -206,4 +206,17 @@ main{
         height: auto;
     }
 
+    .annualPlanBox{
+        display: grid;
+        grid-template-columns: 0.5fr 4.5fr 2fr;
+        grid-template-rows: 0.75em 0.75em 0.75em 0.75em 0.75em;
+        margin: 1em 1em;
+        height:4em;
+        width:105%;
+        background-color: var(--Blue50);
+        justify-self: center;
+        padding: 0.5em 0;
+        border-radius: 0.75em;
+}
+
 }
